@@ -1,0 +1,602 @@
+html, body
+{
+	height:100%; 
+}
+
+body
+{
+	font-family: 'Ubuntu', sans-serif;
+	background-color:#000000;
+	margin:0;
+	display:flex;
+	flex-direction: column;
+}
+
+/*#header
+{
+	
+
+}*/
+
+/*petit smartphone 320 à 413 px de large*/
+/*smartphone 414 à 479 px de large */
+/*petite tablette 480 à 767 px de large*/
+/*tablette 768 à 1023 px de large*/
+/*petit desktop  1024 à 1439 px de large*/
+/*desktop 1440 et plus de large*/
+
+
+
+
+
+@media screen and (max-device-width: 413px) /*affichage pour smartphone dont largeur inférieur à 413 pixels*/
+{
+	#header_container
+	{
+		font-size: 16px;
+		height:40px;
+	}
+
+	#logo_simplon 
+	{
+		width:30px;
+		height:30px;
+		position:absolute;
+		left:10px;
+		top:5px;
+	}
+
+	.circle
+	{
+		margin:5px;
+		height:60px;
+		width:60px;
+	}
+
+	.circle > p
+	{
+		font-size: 40px;
+	}
+
+	.text
+	{
+		
+		/*width: 100px;*/
+		/*height: 60px;*/
+		flex-direction: column;
+	}
+
+	.text > p
+	{
+		font-size: 20px;
+	}
+
+	#footer_container
+	{
+		height:40px;
+		font-size: 16px;
+	}
+
+	#logo_github
+	{
+		width:30px;
+		height:30px;
+		margin-left: 10px;
+	}
+}
+
+@media screen and (min-device-width: 414px) and (max-device-width: 479px)
+/*affichage pour smartphone dont largeur égale ou supérieure à 414 pixels et inférieure à 480*/
+{
+	#header_container
+	{
+		
+		font-size: 20px;
+		height:54px;
+	}
+
+	#logo_simplon 
+	{
+		width:40px;
+		height:40px;
+		position:absolute;
+		left:20px;
+		top:7px;
+	}
+
+	.circle
+	{
+		margin:5px;
+		height:90px;
+		width:90px;
+	}
+
+	.circle > p
+	{
+		font-size: 50px;
+	}
+
+	.text
+	{
+		/*width: 140px;*/
+		/*height: 90px;*/
+		flex-direction: column;
+	}
+
+	.text > p
+	{
+		font-size: 22px;
+	}
+
+	#footer_container
+	{
+		height:54px;
+		font-size: 20px;
+	}
+
+	#logo_github
+	{
+		width:40px;
+		height:40px;
+		margin-left: 20px;
+	}
+}
+
+@media screen and (max-width: 479px) /*affichage pour écran dont largeur inférieur à 480 pixels, exemple navigateur à fenêtre réduite*/
+{
+	#header_container
+	{
+		font-size: 16px;
+		height:40px;
+	}
+
+	#logo_simplon 
+	{
+		width:30px;
+		height:30px;
+		position:absolute;
+		left:10px;
+		top:5px;
+	}
+
+	.circle
+	{
+		margin:5px;
+		height:60px;
+		width:60px;
+	}
+
+	.circle > p
+	{
+		font-size: 40px;
+	}
+
+	.text
+	{
+		
+		/*width: 100px;*/
+		/*height: 60px;*/
+		flex-direction: column;
+	}
+
+	.text > p
+	{
+		font-size: 20px;
+	}
+
+	#footer_container
+	{
+		height:40px;
+		font-size: 16px;
+	}
+
+	#logo_github
+	{
+		width:30px;
+		height:30px;
+		margin-left: 10px;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px)
+/*affichage pour tablette largeur égale ou supérieure à 480 pixels et inférieure à 767*/
+{
+	#header_container
+	{
+		
+		font-size: 24px;
+		height:70px;
+	}
+
+	#logo_simplon 
+	{
+		width:44px;
+		height:44px;
+		position:absolute;
+		left:20px;
+		top:13px;
+	}
+
+	.circle
+	{
+		margin:5px;
+		height:120px;
+		width:120px;
+	}
+
+	.circle > p
+	{
+		font-size: 70px;
+	}
+
+	.text
+	{
+		/*width: 150px;*/
+		/*height: 100px;*/
+		flex-direction: column;
+	}
+
+	.text > p
+	{
+		font-size: 24px;
+	}
+
+	#footer_container
+	{
+		height:70px;
+		font-size: 24px;
+	}
+
+	#logo_github
+	{
+		width:60px;
+		height:60px;
+		margin-left: 20px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px)
+/*affichage pour tablette largeur égale ou supérieure à 480 pixels et inférieure à 1024*/
+{
+	#header_container
+	{
+		
+		font-size: 36px;
+		height:90px;
+	}
+
+	#logo_simplon 
+	{
+		width:84px;
+		height:84px;
+		position:absolute;
+		left:30px;
+		top:3px;
+	}
+
+	.circle
+	{
+		margin:5px;
+		height:140px;
+		width:140px;
+	}
+
+	.circle > p
+	{
+		font-size: 80px;
+	}
+
+	.text
+	{
+		/*width: 250px;*/
+		/*height: 100px;*/
+		flex-direction: column;
+	}
+
+	.text > p
+	{
+		font-size: 24px;
+	}
+
+	#footer_container
+	{
+		height:90px;
+		font-size: 24px;
+	}
+
+	#logo_github
+	{
+		width:80px;
+		height:80px;
+		margin-left: 20px;
+	}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1439px)
+/*affichage pour écran desktop largeur égale ou supérieure à 1025 pixels et inférieure à 1439*/
+{
+	#header_container
+	{
+		
+		font-size: 36px;
+		height:100px;
+	}
+
+	#logo_simplon 
+	{
+		width:84px;
+		height:84px;
+		position:absolute;
+		left:40px;
+		top:8px;
+	}
+
+	.circle
+	{
+		margin:5px;
+		height:140px;
+		width:140px;
+	}
+
+	.circle > p
+	{
+		font-size: 80px;
+	}
+
+	.text
+	{
+		/*width: 250px;*/
+		/*height: 100px;*/
+		flex-direction: column;
+	}
+
+	.text > p
+	{
+		font-size: 24px;
+	}
+
+	#footer_container
+	{
+		height:100px;
+		font-size: 36px;
+	}
+
+	#logo_github
+	{
+		width:90px;
+		height:90px;
+		margin-left: 20px;
+	}
+}
+
+@media screen and (min-width: 1440px) 
+/*affichage pour écran desktop égal ou supérieur à 1440 pixels */
+{
+	#header_container
+	{
+		
+		font-size: 36px;
+		height:100px;
+	}
+
+	#logo_simplon 
+	{
+		width:84px;
+		height:84px;
+		position:absolute;
+		left:50px;
+		top:8px;
+	}
+
+	.circle
+	{
+		margin:5px;
+		height:140px;
+		width:140px;
+	}
+
+	.circle > p
+	{
+		font-size: 80px;
+	}
+
+	.text
+	{
+		/*width: 250px;*/
+		/*height: 100px;*/
+		flex-direction: column;
+	}
+
+	.text > p
+	{
+		font-size: 24px;
+	}
+
+	#footer_container
+	{
+		height:100px;
+		font-size: 36px;
+	}
+
+	#logo_github
+	{
+		width:90px;
+		height:90px;
+		margin-left: 20px;
+	}
+}
+
+@media (orientation: portrait)
+{
+	#main
+	{
+		flex-direction: column;
+	}
+
+	.container
+	{
+		flex-direction: row;
+	}
+
+	div.ghost_circle
+	{
+		display:none;
+	}
+
+	.text
+	{
+		width:1px; /*pour permettre de centrer les éléments par rapport à l'axe vertical des cercle*/
+	}
+
+	.text > p
+	{
+		text-align: left;
+	}
+}
+
+@media (orientation: landscape)
+{
+	#main
+	{
+		flex-direction: row;
+	}
+
+	.container
+	{
+		flex-direction: column;
+	}
+
+	div.ghost_text
+	{
+		display: none;
+	}
+
+	.text > p
+	{
+		text-align: center;
+	}
+}
+
+#header_container
+{
+	
+	display:flex;
+	justify-content: center; 
+	align-items: center;
+	background-color:#ffffff;
+}
+
+#header_text
+{
+	text-align:center;
+}
+
+#main
+{
+	margin:auto;
+	display: flex;
+}
+
+.container
+{
+	display: flex;
+	align-items: center;
+}
+
+.circle
+{
+	border-radius: 50%;
+	display : flex;
+	flex-direction: column;
+	justify-content: center;
+	/*background-color: green;*/
+}
+
+.month_circle
+{
+	background-color:#15ADE0;
+}
+
+.day_circle
+{
+	background-color:#EF476F;
+}
+
+.hour_circle
+{
+	background-color:#06D6A0;
+}
+
+.minute_circle
+{
+	background-color:#FFD166;
+}
+
+.second_circle
+{
+	background-color:#5F46C3;
+}
+
+.circle > p
+{
+	text-align: center;
+}
+
+.text
+{
+	display : flex;
+	justify-content: center;
+}
+
+.month_text
+{
+	color:#15ADE0;
+}
+
+.day_text
+{
+	color:#EF476F;
+}
+
+.hour_text
+{
+	color:#06D6A0;
+}
+
+.minute_text
+{
+	color:#FFD166;
+}
+
+.second_text
+{
+	color:#5F46C3;
+}
+
+p
+{
+	margin:0;
+}
+
+
+
+#footer_container
+{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#ffffff;
+}
+
+a:link
+{
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #888888;
+  text-decoration: none;
+}
+

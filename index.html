@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<title>Final countdown</title>
+</head>
+<body>
+	<div id="header">
+		<header>
+			<div id="header_container">
+				<p id="header_text">Countdown before graduation</p>
+			</div>
+			<div class="logo_simplon_gauche">
+					<img id="logo_simplon" src="logo_simplon.png" alt="logo Simplon"/>
+			</div>
+		</header>
+	</div>
+
+	<div id="main">
+		
+			<div class="container">
+				<div class="ghost_text text"></div><!-- n'est pas visible mais permet l'alignement selon l'axe vertical sur l'axe des cercles en mode vertical -->
+				<div class="circle month_circle"><p id="month">4</p></div>
+				<div class="text month_text"><p>Months</p></div>
+				<div class="ghost_circle circle"></div><!-- n'est pas visible mais permet l'alignement selon l'axe horizontal sur l'axe des textes mois jours heures en mode horizontal -->
+			</div>
+			<div class="container">
+				<div class="ghost_text text"></div>
+				<div class="circle day_circle"><p id="day">15</p></div>
+				<div class="text day_text"><p>Days</p></div>
+				<div class="ghost_circle circle"></div><!-- n'est pas visible mais permet l'alignement selon l'axe horizontal sur l'axe des textes mois jours heures en mode horizontal -->
+			</div>
+			<div class="container">
+				<div class="ghost_text text"></div>
+				<div class="circle hour_circle"><p id="hour">7</p></div>
+				<div class="text hour_text"><p>Hours</p></div>
+				<div class="ghost_circle circle"></div><!-- n'est pas visible mais permet l'alignement selon l'axe horizontal sur l'axe des textes mois jours heures en mode horizontal -->
+			</div>
+			<div class="container">
+				<div class="ghost_text text"></div>
+				<div class="circle minute_circle"><p id="minute">36</p></div>
+				<div class="text minute_text"><p>Minutes</p></div>
+				<div class="ghost_circle circle"></div><!-- n'est pas visible mais permet l'alignement selon l'axe horizontal sur l'axe des textes mois jours heures en mode horizontal -->
+			</div>
+			<div class="container">
+				<div class="ghost_text text"></div>
+				<div class="circle second_circle"><p id="second">48</p></div>
+				<div class="text second_text"><p>Seconds</p></div>
+				<div class="ghost_circle circle"></div><!-- n'est pas visible mais permet l'alignement selon l'axe horizontal sur l'axe des textes mois jours heures en mode horizontal -->
+			</div>
+		
+	</div>
+	<div id="footer">
+		<footer id="footer_container">
+			<div><a href="https://github.com/manekineko17">Marine Grouiller</a></div>
+			<div><img id="logo_github"src="logo_github.png" alt="logo GitHub"/></div>
+		</footer>
+	</div>
+	<script src="chrono.js"></script>
+</body>
+</html>
